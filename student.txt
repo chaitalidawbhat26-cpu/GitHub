@@ -1,1 +1,1 @@
-Name:Chaitali
+Store the student information
