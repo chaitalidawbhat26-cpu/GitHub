@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Build_test_deploy_project
+name: build_test_deploy
 
 # Controls when the workflow will run
 on:
@@ -26,18 +26,18 @@ jobs:
       - uses: actions/checkout@v4
 
       # Runs a single command using the runners shell
-      - name: Build
+      - name: build
         run: |
           build the project
           Building.........
 
       # Runs a set of commands using the runners shell
-      - name: Test
+      - name: test
         run: |
           Test the project
           Testing...........
 
-      - name: Deploy
+      - name: deploy
         run: |
           Deploy the project
           Deploying...........
